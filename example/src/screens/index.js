@@ -6,8 +6,8 @@ import AgendaScreen from './agenda';
 import CalendarsList from './calendarsList';
 
 export function registerScreens() {
-  Navigation.registerComponent('Menu', () => MenuScreen);
-  Navigation.registerComponent('Calendars', () => CalendarsScreen);
-  Navigation.registerComponent('Agenda', () => AgendaScreen);
-  Navigation.registerComponent('CalendarsList', () => CalendarsList);
+    Navigation.registerComponent('Menu', () => MenuScreen);
+    Navigation.registerComponent('Calendars', () => CalendarsScreen);
+    Navigation.registerComponent('Agenda', () => AgendaScreen);
+    Navigation.registerComponent('CalendarsList', () => CalendarsList);
 }
